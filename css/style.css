@@ -1,0 +1,50 @@
+.top {
+  text-align: center !important;
+  background-color: #48cae4;
+  padding-top: 11px;
+}
+
+.head {
+  color: aliceblue;
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/* || Tabellen */
+
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+/* Kleur */
+td:nth-child(4n + 1) {
+  background-color: #03045e;
+}
+td:nth-child(4n + 2) {
+  background-color: #023e8a;
+}
+td:nth-child(4n + 3) {
+  background-color: #0077b6;
+}
+td:nth-child(4n + 4) {
+  background-color: #0096c7;
+}
+
+/* || Footer */
+
+.voettekst {
+  background-color: #90e0ef;
+  height: 56px;
+  margin-top: -17px;
+}
